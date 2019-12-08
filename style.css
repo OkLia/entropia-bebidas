@@ -1,0 +1,160 @@
+body{
+    background-image: url("file:///C:/Users/Lia/Desktop/BEBIDAS%20ENTROPIA/img/100-folhas-papel-tipo-pergaminho-180gr-fosco-a4-D_NQ_NP_596705-MLB25064335141_092016-F.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.logo{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    padding: 0%;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+#titulo p{
+    margin: 70px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Prompt', 'serif';
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.sabores{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    padding:auto;
+    margin: 70px;
+}
+.sabores p{
+    margin-top: -90px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 9% auto 9%;
+    height: auto;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+.preço{
+    height: auto;
+    margin:auto;
+    text-align: center;
+}
+.produtos{
+    height: auto;
+    margin: 40px;
+    text-align: center;
+}
+.description1{
+    margin-top: -130px;
+}
+.description2 p{
+    margin-top: -110px;
+}
+
+.contato{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    padding:auto;
+    margin: 70px auto 200px auto;    
+}
+.contato p{
+    margin: -100px;
+}
+.number{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: -50px;
+}
+
+
+
+
+@media (max-width: 900px){
+    .container1{
+        display: flex;
+        flex-flow: wrap;
+        margin: auto;
+    }
+    .preço{
+        margin: 30px;
+    }
+    .sabores{
+        margin: 50px;
+    }
+}
+
+
+/**
+@media (min-width: 500px){
+    .produtos{
+        margin: auto 1% auto 20%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (min-width: 700px){
+    .produtos{
+        margin: auto 1% 0 2%;
+        height: auto;
+    }    
+
+}
+@media (min-width: 800px){
+    .produtos{
+        margin: auto 0 0 6%;
+        height: auto;
+    }       
+}
+@media (min-width: 860px){
+    .produtos{
+        margin: auto 1% auto 7%;
+        height: auto;
+    }
+}
+@media (min-width: 900px){
+    .produtos{
+        margin: auto 0 auto 9%;
+        height: auto;
+    }
+}
+
+@media (min-width: 910px){
+    .produtos{
+        margin: auto 1% auto 9%;
+        height: auto;
+    }
+}
+@media (min-width: 990px){
+    .produtos{
+        margin: auto 1% auto 16%;
+        height: auto;
+    }
+}
+**/
