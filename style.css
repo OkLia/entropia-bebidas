@@ -27,7 +27,7 @@ body{
 }
 .sabores{
     position: relative;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cambria', 'Cochin','Georgia', 'Times', 'Times New Roman', serif;
     font-size: 40px;
     text-align: center;
     padding:auto;
@@ -44,7 +44,7 @@ body{
     align-items: center;
     text-align: center;
     margin: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times New Roman', 'Times', serif;
 }
 .container2{
     display: flex;
@@ -56,7 +56,7 @@ body{
     margin: auto 9% auto 9%;
     height: auto;
     width: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
+    font-family: 'Georgia', 'Times New Roman', 'Times', serif;}
 .preço{
     height: auto;
     margin:auto;
@@ -76,7 +76,7 @@ body{
 
 .contato{
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', 'Courier', monospace;
     font-size: 40px;
     text-align: center;
     padding:auto;
@@ -108,53 +108,3 @@ body{
         margin: 50px;
     }
 }
-
-
-/**
-@media (min-width: 500px){
-    .produtos{
-        margin: auto 1% auto 20%;
-        height: auto;
-        align-items: center;
-        text-align: center;
-    }
-}
-@media (min-width: 700px){
-    .produtos{
-        margin: auto 1% 0 2%;
-        height: auto;
-    }    
-
-}
-@media (min-width: 800px){
-    .produtos{
-        margin: auto 0 0 6%;
-        height: auto;
-    }       
-}
-@media (min-width: 860px){
-    .produtos{
-        margin: auto 1% auto 7%;
-        height: auto;
-    }
-}
-@media (min-width: 900px){
-    .produtos{
-        margin: auto 0 auto 9%;
-        height: auto;
-    }
-}
-
-@media (min-width: 910px){
-    .produtos{
-        margin: auto 1% auto 9%;
-        height: auto;
-    }
-}
-@media (min-width: 990px){
-    .produtos{
-        margin: auto 1% auto 16%;
-        height: auto;
-    }
-}
-**/
