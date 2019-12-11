@@ -112,6 +112,9 @@ body{
     .sabores{
         margin: 10% auto;
     }
+    .contato p{
+        margin: -100
+    }
     .number{
         margin: auto;
     }
