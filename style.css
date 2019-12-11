@@ -56,7 +56,13 @@ body{
     margin: auto 9% auto 9%;
     height: auto;
     width: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
 .preço{
     height: auto;
     margin:auto;
